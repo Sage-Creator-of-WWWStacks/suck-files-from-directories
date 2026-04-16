@@ -1,0 +1,87 @@
+# SAGE  - Internet Guru who formed the first stack
+# suck every file from every subdirectory and pop the empties
+# putting every file into extension catagories
+
+import os
+from pathlib import Path
+
+
+
+ext = ".pyd"
+src = "D:\\Dropbox\\Sorting Hat\\$OF\\"
+dst = "D:\\Dropbox\\Sorting Hat\\PYD\\"
+p = Path(src)
+
+class PopCondom:
+    def _init_(_(self, Path):
+        path.PopCondom = Path
+    def shutwindow(self):
+        if not os.listdir(sp):
+            print (f"{path.PopCondom} IS AN EMPTY DIRECTORY")
+            os.rmdir(sp)
+            if os.path.isdir(sp):
+                print ("Directory couldn't be removed")
+            else:
+                print ("Empty Directory Deleted")
+            print ("\n\n")
+            continue
+
+    
+class PathTaker:
+    def _init_(self, PPath):
+        path.PathTaker(self, PPath):
+    def forkit(self)
+        for entry in p.iterdir():
+            sp = Path(src+entry.name)
+
+        for sub_entry in sp.iterdir():
+            print (sub_entry.name)
+            if (sub_entry.name.endswith(ext)):
+                x = sp / sub_entry.name
+                y = dst + sub_entry.name
+                
+
+                if os.path.isfile(y):
+                    i=0
+                    print ("\n\nAttempt File exists already.")
+                    z= y
+                    while os.path.isfile(z):
+                        k = str(i)
+                        i += 1
+                        j = str(i)
+                        print (j, ": checking for ", z)
+                        z= z.removesuffix(ext)
+                        z= z.removesuffix(k)
+                        z= z+j
+                        z= z+ext
+                    print ("change name plus ", j, " moving", x, z)
+                    os.rename(x,z)
+                    if os.path.isfile(z):
+                        print ("File has been renamed and moved.")
+                    else:
+                        print ("Move Failed.")
+                    print ("\n\n")
+
+                    
+                else:
+                    print ("moving ", x, y)
+                    os.rename(x,y)
+                    if os.path.isfile(y):
+                        print ("File has been moved.")
+                    else:
+                        print ("Move Failed.")
+                    print ("\n\n")   
+                
+        else:
+            print ("root dir:",entry.name)
+        if entry.is_dir():
+            print ("Directory: ",entry.name)
+            PopCondom(sp)
+            PathTaker(sp)
+            
+
+Foreach @ in extensions
+Path.absolute(src)
+            
+
+print ("Suck It Complete")
