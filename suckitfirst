@@ -1,0 +1,57 @@
+# SAGE  - Internet Guru who formed the first stack
+# TWO Deep Directory File Reconstitution
+# src has 100000 directories made by a commercial program
+# to backup and categorized files.. but pulling them into
+# directories of all the same time for consideration of merge
+# into multiple back of files... this and a duplicate finder. 
+import os
+from pathlib import Path
+
+
+
+ext = ".pdf"
+src = "D:\\Dropbox\\Sorting Hat\\$OF\\"
+dst = "D:\\Dropbox\\Sorting Hat\\PDF\\"
+
+p = Path(src)
+for entry in p.iterdir():
+    sp = Path(src+entry.name)
+ 
+    if entry.is_dir():
+        print ("Directory: ", entry.name)
+        for sub_entry in sp.iterdir():
+#            print (sub_entry.name)
+            if (sub_entry.name.endswith(ext)):
+                x = sp / sub_entry.name
+                y = dst + sub_entry.name
+
+
+                if os.path.isfile(y):
+                    print ("\n\nAttempt File exists already.")
+                    z= y.removesuffix(ext)
+                    z= z+"suckit"
+                    z= z+ext
+                    print ("change name moving", x, z)
+                    if os.path.isfile(z):
+                        print ("Skipped, 2 File has previously been moved.")
+                    else:
+                        os.rename(x,z)
+                        if os.path.isfile(z):
+                            print ("File has been moved.")
+                        else:
+                            print ("Move Failed.")
+                    print ("\n\n")
+
+                    
+                else:
+                    print ("moving ", x, y)
+                    os.rename(x,y)
+                    if os.path.isfile(y):
+                        print ("File has been moved.")
+                    else:
+                        print ("Move Failed.")
+                    print ("\n\n")   
+                
+    else:
+        print ("root dir:",entry.name)
+
