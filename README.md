@@ -5,7 +5,7 @@ This thing dissolves file systems into their components.
 Like your PhD Adviser finding his car's been disassembled. 
 
 
-Could easily be made into a copy all elements from a structure like it's a fire sale, but this one empties them and pops the empty directories like ...  well see my upgrade to class structure file to coming. 
+Could easily be made into a copy all elements from a structure like it's a fire sale, but this one moves only the extensions we want and pops the empty directories like ...  well see my upgrade to class structure file to coming.   I did get OCD in doing it.. I did all the extensions by hand to see.. but really I should have written a program to do that, but a recursive program is like a microbacteria, a game spawn site, that can easily be the magicians apprentice, so my wiser head prevails. 
 
 
 So.. catastrophic recovery from an AI, that left some files but nonsense structure?  I don't even remember the program that did it.. something like adobe making a collage duplicate, but something happened to my other files was a possiblity, not the first time I assumed a commercial program worked, so often should prefere the old console text interface...  professional "Idle" time to play with pythone a litte bit, in case there is someone hiring those of us vastly overqualified for the run of the mill system admin or programmer, but haven't an envied position some otherwise clueless HR/Exec looking to steal from some other business, not being STEM but MBA.. but if you're an exec and competent, let's talk. 
