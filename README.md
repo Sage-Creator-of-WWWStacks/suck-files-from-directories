@@ -1,4 +1,4 @@
-Wouldn't install... 
+You probablly shouldn't install...  like ever. 
 
 This thing dissolves file systems into their components. 
 
