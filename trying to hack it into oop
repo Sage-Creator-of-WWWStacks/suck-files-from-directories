@@ -2,6 +2,19 @@
 # suck every file from every subdirectory and pop the empties
 # putting every file into extension catagories
 
+
+###############################################################
+#    In the book of "Don't Do it Unless EXPERT!!!"
+#  I wanna write it, but have no use for it.. probably will anyways, to test latency versions.
+#  What it takes to move every file is a real test of systems isn't it?  And well, funny. 
+#  1.  A version that scans for an ext to move certain directories, pre-determined extensions. 
+#  2.  A version that scans directories and creates directory bins named after found extensions, single pass. 
+#      Either and both have to be actually recursive in OOP class object calls for subdirectories... fun yeah.
+#     
+#     At the same time... not on my machine. So, ask if you want it anytime soon. 
+#
+################################################################
+
 import os
 from pathlib import Path
 
