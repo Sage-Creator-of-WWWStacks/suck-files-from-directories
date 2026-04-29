@@ -13,6 +13,10 @@
 #     
 #     At the same time... not on my machine. So, ask if you want it anytime soon. 
 #
+#   This one isn't complete, but the cut file I'll be taking the test routines from to be in a class library
+#   After I make Phyton recursions familar.  
+#   (It's like an asylum version of Perl, but new to me.. probably a half a dozen ways that none have tested. 
+#
 ################################################################
 
 import os
